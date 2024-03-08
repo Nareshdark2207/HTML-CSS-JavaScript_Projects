@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+/*===== Left Container =====*/
+
+.hh-payment-dsk-mn-main-container {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.left-container {
+    min-width: 250px;
+    max-width: 250px;
+    background: #2a58ae;
+    transition: all 0.3s;
+}
+
+.left-container ul li a {
+    padding: 30px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.siderbar_menu li a {
+    padding: 16px 50px;
+    display: block;
+    position: relative;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.siderbar_menu li a .icon {
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.siderbar_menu li a .title {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.siderbar_menu li a:hover,
+.siderbar_menu li a.active {
+    background: #ffffff31;
+}
+
+.siderbar_menu li a:hover:before,
+.siderbar_menu li a.active:before {
+    display: block;
+}
+
+.list-unstyled {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+
+/* ==== Right Container ==== */
+
+.right-container {
+    width: 100%;
+    transition: all 0.3s;
+    background: #ffffff;
+}
+
+.heading {
+    color: #777;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: relative;
+    top: 12rem;
+    text-align: center;
+}
+
+.sub-heading {
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    position: relative;
+    top: 12rem;
+    text-align: center;
+}
+
+.auth {
+    padding: 1rem;
+    background-color: #1ab748;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    line-height: 30px;
+    position: relative;
+    top: 13rem;
+}
+
+.auth:hover {
+    background: #1abe7a;
+    color: #fff;
+}
+
+.head {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #2a58ae; 
+}
+
+
+/* ===== Media Queries ===== */
+
+@media (max-width: 768px) {
+    .auth {
+        padding: 0.6rem;
+    }
+}

@@ -1,0 +1,139 @@
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+@text-color1: #777;
+@text-color2:#fff;
+@btn-color: #1ab748;
+@btn-hover: #1abe7a;
+@sidemenu-bg:#2a58ae;
+@color1:rgb(187, 187, 187);
+@transparent:#ffffff41;
+
+/*===== Main Container =====*/
+  .hh-payment-dsk-mn-main-container {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+/*===== Left Container =====*/   
+    .left-container {
+        min-width: 250px;
+        max-width: 250px;
+        background:@sidemenu-bg;
+        color: @text-color2;
+        transition: all 0.3s;
+    }
+
+    .list-unstyled {
+        list-style: none;
+        padding: 0;
+        margin-top: 0;
+    }
+        
+    .left-container {
+        ul {
+            li {
+                a {
+                    padding: 30px;
+                    font-size: 1.1em;
+                    display: block;
+                }
+            }
+        }
+    }
+    
+    .siderbar_menu {
+        li {
+            a {
+                padding: 16px 50px;
+                display: block;
+                position: relative;
+                margin-bottom: 1px;
+                text-transform: uppercase;
+                text-decoration: none;
+                &:hover {
+                    background:@transparent;
+                }
+            
+                &:before {
+                    display: block;
+                }
+                .active {
+                    background:@transparent;
+                 }
+                 &:before {
+                     display: block;
+                 }
+                .icon {
+                    font-size: 20px;
+                    color: $color1;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+                .title {
+                    font-size: 12px;
+                    color: $color1;
+                    font-weight: 600;
+                }
+           }
+      }
+}    
+
+ /*===== Right Container =====*/   
+        .right-container {
+                width: 100%;
+                transition: all 0.3s;
+                background: @text-color2;
+                .heading { 
+                color: @text-color1;
+                font-size: 18px;
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 30px;
+                position: relative;
+                top: 12rem;
+                text-align: center;
+            }
+                .sub-heading {
+                color: @text-color1;
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                line-height: 30px;
+                position: relative;
+                top: 12rem;
+                text-align: center;
+            }
+                .auth {
+                padding: 1rem;
+                background-color: @btn-color;
+                color: @text-color2;
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                text-decoration: none !important;
+                line-height: 30px;
+                position: relative;
+                top: 13rem;
+                &:hover
+                { 
+                background-color: @btn-hover;
+                color:@text-color2;
+            }
+       }
+    }
+}
+
+.head{
+    font-size:18px;
+    font-weight:600;
+    text-transform: capitalize;
+    margin-top:10px;
+    margin-bottom:20px;
+  }
+
+/* ===== Media Queries ===== */
+
+@media (max-width: 768px) {
+    .auth {
+        padding: 0.6rem;
+    }
+}
