@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./css/creative.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
+    <link href="./css/animate.css">
+    <title>Start Bootstrap</title>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand font-weight-bold" href="#page-top">Start Bootstrap</a>
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse top1 font-weight-bold" id="navbarResponsive" aria-expanded="true">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+    <!-- Header -->
+<header class="masthead">
+    <div class="container ">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10">
+                <h1 class="text-uppercase text-white font-weight-bold">Your Favourite Source of<br>Free Bootstrap Themes
+                </h1>
+                <hr class="new my-4">
+            </div>
+            <div class="col-lg-8">
+                <p class="text-white font-weight-light">Start Bootstrap can help you build better websites using
+                    the Bootstrap<br>framework! Just download a theme and start customizing, no strings attached!</p>
+                <a class="btn btn-primary mt-4" href="#about">Find Out More</a>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- About-->
+<section class="page-color" id="about">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="text-white font-weight-bold mt-3">We've got what you need!</h2>
+                <hr class="new1 my-4">
+                <p class="text-white mb-3">Start Bootstrap has everything you need to get your new website up and
+                    running in no time! Choose one of our open source, free to download, and easy to use themes! No
+                    strings attached!</p>
+                <a class="btn btn-primary btn-xl font-weight-bold" href="#services">Get Started!</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Services -->
+<section class="session papa mt-5" id="services">
+    <div class="container">
+        <h2 class="text-center font-weight-bold mt-0">At Your Service</h2>
+        <hr class="new2 my-4">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-gem mb-4"></i>
+                    <h3 class="font-weight-bold mb-2">Study Themes</h3>
+                    <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code mb-4"></i>
+                    <h3 class="font-weight-bold mb-2">Up to Date</h3>
+                    <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-globe  mb-4"></i>
+                    <h3 class="font-weight-bold mb-2">Ready to Publish</h3>
+                    <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-heart mb-4"></i>
+                    <h3 class="font-weight-bold mb-2">Made with Love</h3>
+                    <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="column">
+                        <div class="naresh" onclick="openModal();currentSlide(1)"> 
+                                <div class="overlay">
+                                  <div class="text">C&nbsp;A&nbsp;T&nbsp;E&nbsp;G&nbsp;O&nbsp;R&nbsp;Y</div>
+                                  <p class="text1">Project Name</p>
+                                </div>
+                                <img src="./img/1.jpg" style="width:100%" 
+                                class="hover-shadow cursor image">
+                        </div>
+                </div>
+                <div class="column">
+                        <div class="naresh" onclick="openModal();currentSlide(2)">
+                                <div class="overlay">
+                                  <div class="text">C&nbsp;A&nbsp;T&nbsp;E&nbsp;G&nbsp;O&nbsp;R&nbsp;Y</div>
+                                  <p class="text1">Project Name</p>
+                                </div>
+                                <img src="./img/2.jpg" style="width:100%" 
+                                class="hover-shadow cursor image">
+                              </div>
+                </div>
+                <div class="column">
+                        <div class="naresh" onclick="openModal();currentSlide(3)">
+                                <div class="overlay">
+                                  <div class="text">C&nbsp;A&nbsp;T&nbsp;E&nbsp;G&nbsp;O&nbsp;R&nbsp;Y</div>
+                                  <p class="text1">Project Name</p>
+                                </div>
+                                <img src="./img/3.jpg" style="width:100%" 
+                                class="hover-shadow cursor image">
+                              </div>
+                </div>
+                <div class="column">
+                        <div class="naresh" onclick="openModal();currentSlide(4)">
+                                <div class="overlay">
+                                  <div class="text">C&nbsp;A&nbsp;T&nbsp;E&nbsp;G&nbsp;O&nbsp;R&nbsp;Y</div>
+                                  <p class="text1">Project Name</p>
+                                </div>
+                                <img src="./img/4.jpg" style="width:100%" 
+                                class="hover-shadow cursor image">
+                              </div>
+                </div>
+                <div class="column">
+                        <div class="naresh" onclick="openModal();currentSlide(5)">
+                                <div class="overlay">
+                                  <div class="text">C&nbsp;A&nbsp;T&nbsp;E&nbsp;G&nbsp;O&nbsp;R&nbsp;Y</div>
+                                  <p class="text1">Project Name</p>
+                                </div>
+                                <img src="./img/5.jpg" style="width:100%" 
+                                class="hover-shadow cursor image">
+                              </div>
+                </div>
+                <div class="column">
+                        <div class="naresh" onclick="openModal();currentSlide(6)">
+                                <div class="overlay">
+                                  <div class="text">C&nbsp;A&nbsp;T&nbsp;E&nbsp;G&nbsp;O&nbsp;R&nbsp;Y</div>
+                                  <p class="text1">Project Name</p>
+                                </div>
+                                <img src="./img/6.jpg" style="width:100%" 
+                                class="hover-shadow cursor image">
+                              </div>
+                </div> 
+            </div>
+
+            <div id="myModal" class="modal resp">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="./img/1.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="./img/2.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="./img/3.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="./img/4.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="./img/5.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="./img/6.jpg" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         
+    </section>
+
+<section class="session bg-dark text-white">
+    <div class="container text-center">
+        <h2 class="font-weight-bold mb-4 mt-3">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-primary btn-xl font-weight-bold" href="#">Download Now!</a>
+    </div>
+</section>
+<!-- contact -->
+<section class="session" id="contact">
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mt-5">
+                <h2 class="font-weight-bold mt-0">Let's Get In Touch!</h2>
+                <hr class="new3 my-4">
+                <p class="text-muted mb-5">Ready to start your next project with us? Give us a call or send us an email
+                    and we will get back to you as soon as possible!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                <i class="fas fa-phone fa-3x mb-4 text-muted"></i>
+                <div><a class="decoration" href="tel:+91 98765-01234" >+91 98765-01234</a></div>
+            </div>
+            <div class="col-lg-4 mt-1 mr-auto text-center">
+                <i class="fas fa-envelope fa-3x mb-4 text-muted"></i>
+                <div> <a class="decoration" href="mailto:contact@yourwebsite.com">contact@yourwebsite.com</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<footer class="bg mt-5 py-5 ">
+    <div class="container">
+      <div class="text-center text-muted">Copyright © 2019 - Start Bootstrap</div>
+    </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        <script  src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./js/creative.min.js"></script>
+     <script src="./js/wow.js"></script>
+</body>
+</html>
